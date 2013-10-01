@@ -1,0 +1,77 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/action2"
+          android:title="@string/action2" android:showAsAction="ifRoom">
+	      <menu>
+	      <group android:checkableBehavior="all">
+		      <item android:id="@+id/page1"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/page1" />
+		      <item android:id="@+id/page2"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/page2" />
+		      <item android:id="@+id/page3"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/page3" />
+		      </group>
+	      </menu>
+      </item>
+      <item android:id="@+id/action"
+          android:title="@string/action" android:showAsAction="ifRoom">
+	      <menu>
+	      <group android:checkableBehavior="single">
+		      <item android:id="@+id/draw"
+		        	android:showAsAction="ifRoom"
+		        	android:title="@string/draw"
+		         	android:checked="true" />
+		      <item android:id="@+id/erase" 
+		          android:title="@string/erase" 
+		          android:showAsAction="ifRoom" />
+		      </group>
+	      </menu>
+      </item>
+
+    <item android:id="@+id/color"
+          android:title="@string/color" android:showAsAction="ifRoom">
+	      <menu>
+	      <group android:checkableBehavior="single">
+		      <item android:id="@+id/black" 
+		          android:title="@string/black" 
+		          android:showAsAction="ifRoom"
+		          android:checked="true" />
+		      <item android:id="@+id/blue" 
+		          android:title="@string/blue" 
+		          android:showAsAction="ifRoom" />
+		      <item android:id="@+id/green" 
+		          android:title="@string/green" 
+		          android:showAsAction="ifRoom" />
+
+		     <item android:id="@+id/magenta" 
+		          android:title="@string/magenta" 
+		          android:showAsAction="ifRoom"/>
+		     		     <item android:id="@+id/orange" 
+		          android:title="@string/orange" 
+		          android:showAsAction="ifRoom" />
+		     <item android:id="@+id/purple" 
+		          android:title="@string/purple" 
+		          android:showAsAction="ifRoom" />
+		     	     <item android:id="@+id/red"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/red" />
+		    <item android:id="@+id/yellow" 
+		          android:title="@string/yellow" 
+		          android:showAsAction="ifRoom" />
+		      </group>
+	      </menu>
+      </item>
+      <item android:id="@+id/userButton"
+          android:title="@string/userButton" android:showAsAction="ifRoom">
+	      <menu>
+	      <group android:checkableBehavior="single">
+		      <item android:id="@+id/userButton"
+		        	android:showAsAction="ifRoom"
+		        	android:title="@string/userButton"
+		         	android:checked="true" />
+		      </group>
+	      </menu>
+      </item>
+</menu>
